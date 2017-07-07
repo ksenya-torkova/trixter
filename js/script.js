@@ -1,10 +1,30 @@
 // scrollspy plagin initialization
 $('body').scrollspy({ target: '.navbar-collapse' });
 
+// video overlay remove
 $('.video-overlay').click(function(evt){
     evt.preventDefault();
     $('.video-overlay').addClass('hidden');
 });
+
+// scrollTo plagin initialization
+$('.navbar-menu a').bind('click', function(evt) {
+    evt.preventDefault();
+    target = this.hash;
+    $.scrollTo(target, 1500);
+ });
+
+$('.footer-site-title-container a').bind('click', function(evt) {
+    evt.preventDefault();
+    target = this.hash;
+    $.scrollTo(target, 1500);
+ });
+
+$('.portfolio-links a').bind('click', function(evt) {
+    evt.preventDefault();
+    target = this.hash;
+    $.scrollTo(target, 1000);
+ });
 
 // slick slider for portfolio slider + counting slides
 $(document).ready(function(){
