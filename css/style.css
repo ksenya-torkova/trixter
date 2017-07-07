@@ -647,11 +647,25 @@ body {
   width: 95%;
   height: calc(647px);
   background-color: rgba(0, 0, 0, 0.85);
-  opacity: 0;
+  display: none;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInUp {
+  animation-name: fadeInUp;
 }
 .portfolio-item:hover .portfolio-descr-hidden {
-  opacity: 1;
-  transition: opacity 1s;
+  display: block;
+  animation: fadeInUp;
+  animation-duration: 1s;
 }
 .portfolio-item-01 h4 {
   font-weight: 700;
@@ -703,7 +717,7 @@ body {
   width: 93%;
   height: calc(214px);
   background-color: rgba(0, 0, 0, 0.85);
-  opacity: 0;
+  display: none;
 }
 .portfolio-item-02 .portfolio-descr-hidden a {
   display: block;
@@ -728,7 +742,7 @@ body {
   width: 93%;
   height: calc(385px);
   background-color: rgba(0, 0, 0, 0.85);
-  opacity: 0;
+  display: none;
 }
 .portfolio-item-03 .portfolio-descr-hidden a {
   display: block;
@@ -754,7 +768,7 @@ body {
   width: 94%;
   height: calc(371px);
   background-color: rgba(0, 0, 0, 0.85);
-  opacity: 0;
+  display: none;
 }
 .portfolio-item-04 h4 {
   font-weight: 700;
@@ -805,7 +819,7 @@ body {
   width: 94%;
   height: calc(231px);
   background-color: rgba(0, 0, 0, 0.85);
-  opacity: 0;
+  display: none;
 }
 .portfolio-item-05 .portfolio-descr-hidden a {
   display: block;
@@ -1286,13 +1300,17 @@ body {
   padding-bottom: 56.25%;
 }
 .video-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
   position: absolute;
   z-index: 9999;
   top: 0;
   left: 0;
+  background-size: 20px 35px;
+  background-image: url(../img/startvideo-sign.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .video-overlay.hidden {
   display: none;

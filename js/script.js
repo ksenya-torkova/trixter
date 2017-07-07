@@ -9,8 +9,7 @@ $('.video-overlay').click(function(evt){
 // slick slider for portfolio slider + counting slides
 $(document).ready(function(){
   $('.potfolio-slider-inner').slick({
-      speed: 1500,
-      cssEase: 'cubic-bezier(.6, -.3, .71, 1)'
+      speed: 1500
   });
 });
 
@@ -26,13 +25,15 @@ $slickElement.on('init reInit afterChange', function (event, slick, currentSlide
 // slick slider for review slider
 $(document).ready(function(){
   $('.review-slider-inner').slick({
+      speed: 1500
   });
 });
 
 // slick slider for members slider + counting slides
 $(document).ready(function(){
   $('.members-slider-inner').slick({
-      vertical: true
+      vertical: true,
+      speed: 1500,
   });
 });
 
