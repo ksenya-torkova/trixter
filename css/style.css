@@ -37,6 +37,7 @@ body {
 }
 .main-header .navbar-fixed-top {
   background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 40px;
 }
 @media (max-width: 820px) {
   .main-header {
@@ -133,6 +134,7 @@ body {
 .main-header .nav > li {
   position: relative;
 }
+.main-header .nav > li.active a::before,
 .main-header .nav > li a:hover::before {
   position: absolute;
   content: "";
