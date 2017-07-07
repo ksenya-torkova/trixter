@@ -1,4 +1,3 @@
-@charset 'UTF-8';
 /*fonts*/
 @font-face {
   font-family: "karla";
@@ -217,13 +216,13 @@ body {
 }
 .members-slide .members-social-links li {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin-left: 34px;
 }
 .footer-social-links li {
   margin-right: 34px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .members-slide .members-slide-row-left .members-social-links li {
   margin-right: 34px;
@@ -652,11 +651,9 @@ body {
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
   }
   to {
     opacity: 1;
-    transform: none;
   }
 }
 .fadeInUp {

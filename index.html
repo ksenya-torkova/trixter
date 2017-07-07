@@ -18,12 +18,16 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body data-spy="scroll" data-target=".navbar-collapse">
+        <!--site header-->
         <header class="main-header" id="home">
             <div class="container-fluid">
-                <div class="row"><!--class="navbar-fixed-top"-->
+                <div class="row">
+                    <!--site name or logo container-->
                     <div class="site-title-container  col-lg-2  col-md-1  col-sm-1  col-xs-2">
                         <h1 class="site-title">trixter</h1>
                     </div>
+                    <!--/site name or logo container-->
+                    <!--main navigation-->
                     <nav class="main-nav  navbar-corp  col-lg-8  col-lg-offset-1  col-md-11  col-md-offset-0  col-sm-11  col-xs-10">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
@@ -43,7 +47,9 @@
                             </ul>
                         </div>
                     </nav>
+                    <!--/main navigation-->
                 </div>
+                <!--social links block-->
                 <div class="social-links  social-links-white">
                     <ul>
                         <li><a href="#" class="fb"><span class="sr-only">facebook</span></a></li>
@@ -52,7 +58,9 @@
                         <li><a href="#" class="tmbl"><span class="sr-only">tumblr</span></a></li>
                     </ul>
                 </div>
+                <!--/social links block-->
             </div>
+            <!--intro text block-->
             <div class="container  intro">
                 <div class="row  col-lg-10  col-lg-offset-1  col-md-10  col-md-offset-1  col-sm-10  col-sm-offset-1  col-xs-10  col-xs-offset-1">
                     <h2 class="main-title">We are creative</h2>
@@ -60,9 +68,14 @@
                     Second – if miracles are all around</p>
                 </div>
             </div>
+            <!--/intro text block-->
         </header>
+        <!--/site header-->
+        <!--main site content-->
         <main class="main-content">
+            <!--our feature section-->
             <div class="container-fluid  our-features" id="about">
+                <!--features section header-->
                 <h2 class="decoration-title">about us</h2>
                 <div class="container">
                     <div class="row">
@@ -72,6 +85,8 @@
                         <p class="col-lg-6  col-md-6  col-sm-6  col-xs-12">Mauris vestibulum est id eros bibendum, consequat efficitur ipsum imperdiet. Aenean turpis velit, accumsan mollis lacinia ac, consequat eu ipsum. Nulla blandit nunc a volutpat facilisis. Nullam pellentesque tellus vel sollicitpharetra. Sed vehicula accumsan mi eget auctor.</p>
                         <p class="col-lg-6  col-md-6  col-sm-6  col-xs-12">Mauris vestibulum est id eros bibendum, consequat efficitur ipsum imperdiet. Aenean turpis velit, accumsan mollis lacinia ac, consequat eu ipsum. Nulla blandit nunc a volutpat facilisis. Nullam pellentesque tellus vel sollicitpharetra. Sed vehicula accumsan mi eget auctor</p>
                     </div>
+                    <!--/features section header-->
+                    <!--feature list-->
                     <div class="row  features-list">
                         <div class="feature  feature-01  col-lg-4  col-md-4  col-sm-12  col-xs-12">
                             <h4 class="feature-title">Web development</h4>
@@ -122,26 +137,33 @@
                             </div>
                         </div>
                     </div>
+                    <!--/feature list-->
                 </div>
             </div>
+            <!--/our feature section-->
+            <!--portfolio section-->
             <div class="container-fluid  portfolio" id="portfolio">
+                <!--portfolio section header-->
                 <h2 class="decoration-title">portfolio</h2>
                 <div class="container">
                     <div class="row">
                         <h3 class="subtitle  col-lg-6  col-md-12">Latest project</h3>
                         <div class="portfolio-links  col-lg-6  col-md-12  col-xs-12">
                             <ul>
-                                <li class="active"><a href="#">All</a></li>
-                                <li><a href="#">Design</a></li>
-                                <li><a href="#">Photo</a></li>
-                                <li><a href="#">Branding</a></li>
+                                <li class="active"><a href="#portfolio-photos">All</a></li>
+                                <li><a href="#portfolio-photos">Design</a></li>
+                                <li><a href="#portfolio-photos">Photo</a></li>
+                                <li><a href="#portfolio-photos">Branding</a></li>
                             </ul>
                         </div>
                     </div>
+                    <!--/portfolio section header-->
+                    <!--portfolio slider-->
                     <div class="row">
                         <div class="portfolio-slider">
-                            <div class="potfolio-slider-inner  ct-slick-homepage">
-                                <div class="portfolio-slide  portfolio-slide-1  animated">
+                            <div class="potfolio-slider-inner  ct-slick-homepage" id="portfolio-photos">
+                                <!--portfolio slide 1-->
+                                <div class="portfolio-slide  portfolio-slide-1">
                                     <div class="portfolio-slider-column  col-lg-5  col-md-12  col-sm-12 col-xs-12">
                                         <div class="portfolio-item  portfolio-item-01">
                                             <div class="portfolio-descr-hidden">
@@ -178,9 +200,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--/portfolio slide 1-->
+                                <!--portfolio slide 2-->
                                 <div class="portfolio-slide  portfolio-slide-2">
                                     <div class="portfolio-slider-column  col-lg-5  col-md-12  col-sm-12  col-xs-12">
-                                        <div class="portfolio-item  portfolio-item-01  animated">
+                                        <div class="portfolio-item  portfolio-item-01">
                                             <div class="portfolio-descr-hidden">
                                                 <h4>Web Design</h4>
                                                 <p>Documentaries have a profound effect in terms of their ability to both teach and inspire. As designers, we are one of the primary creative industries and always looking to find</p>
@@ -189,12 +213,12 @@
                                         </div>
                                     </div>
                                     <div class="portfolio-slider-column  col-lg-3  col-md-6  col-sm-6  col-xs-12">
-                                        <div class="portfolio-item  portfolio-item-02  animated">
+                                        <div class="portfolio-item  portfolio-item-02">
                                             <div class="portfolio-descr-hidden">
                                                 <a href="#">See project</a>
                                             </div>
                                         </div>
-                                        <div class="portfolio-item  portfolio-item-03  animated">
+                                        <div class="portfolio-item  portfolio-item-03">
                                             <div class="portfolio-descr-hidden">
                                                 <a href="#">See project</a>
                                             </div>
@@ -215,7 +239,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="portfolio-slide  portfolio-slide-3  animated">
+                                <!--/portfolio slide 2-->
+                                <!--portfolio slide 3-->
+                                <div class="portfolio-slide  portfolio-slide-3">
                                     <div class="portfolio-slider-column  col-lg-5  col-md-12  col-sm-12 col-xs-12">
                                         <div class="portfolio-item  portfolio-item-01">
                                             <div class="portfolio-descr-hidden">
@@ -252,7 +278,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="portfolio-slide  portfolio-slide-4  animated">
+                                <!--/portfolio slide 3-->
+                                <!--portfolio slide 4-->
+                                <div class="portfolio-slide  portfolio-slide-4">
                                     <div class="portfolio-slider-column  col-lg-5  col-md-12  col-sm-12 col-xs-12">
                                         <div class="portfolio-item  portfolio-item-01">
                                             <div class="portfolio-descr-hidden">
@@ -289,7 +317,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="portfolio-slide  portfolio-slide-5  animated">
+                                <!--/portfolio slide 4-->
+                                <!--portfolio slide 5-->
+                                <div class="portfolio-slide  portfolio-slide-5">
                                     <div class="portfolio-slider-column  col-lg-5  col-md-12  col-sm-12 col-xs-12">
                                         <div class="portfolio-item  portfolio-item-01">
                                             <div class="portfolio-descr-hidden">
@@ -326,7 +356,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="portfolio-slide  portfolio-slide-6  animated">
+                                <!--/portfolio slide 5-->
+                                <!--portfolio slide 6-->
+                                <div class="portfolio-slide  portfolio-slide-6">
                                     <div class="portfolio-slider-column  col-lg-5  col-md-12  col-sm-12 col-xs-12">
                                         <div class="portfolio-item  portfolio-item-01">
                                             <div class="portfolio-descr-hidden">
@@ -363,43 +395,60 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--/portfolio slide 6-->
                             </div>
+                            <!--portfolio slider pager-->
                             <div class="portfolio-slider-controls">
                                 <span class="portfolio-slider-page"></span>
                             </div>
+                            <!--/portfolio slider pager-->
                         </div>
                     </div>
+                    <!--/portfolio slider-->
                 </div>
             </div>
+            <!--/portfolio section-->
+            <!--portfolio projects section-->
             <div class="container-fluid  portfolio-projects">
                 <div class="container">
                     <div class="row">
+                        <!--portfolio project block 1-->
                         <div class="portfolio-projects-wrap  col-lg-3  col-md-3  col-sm-6  col-xs-12">
                             <a href="#">
                                 <img src="img/project-01.png" alt="our project 'photostudio'">
                             </a>
                         </div>
+                        <!--/portfolio project block 1-->
+                        <!--portfolio project block 2-->
                         <div class="portfolio-projects-wrap  col-lg-3  col-md-3  col-sm-6  col-xs-12">
                             <a href="#">
                                 <img src="img/project-02.png" alt="our project 'clothing'">
                             </a>
                         </div>
+                        <!--/portfolio project block 2-->
+                        <!--portfolio project block 3-->
                         <div class="portfolio-projects-wrap  col-lg-3  col-md-3  col-sm-6  col-xs-12">
                             <a href="#">
                                 <img src="img/project-03.png" alt="our project 'handmade'">                    
                             </a>
                         </div>
+                        <!--/portfolio project block 3-->
+                        <!--portfolio project block 4-->
                         <div class="portfolio-projects-wrap  col-lg-3  col-md-3  col-sm-6  col-xs-12">
                             <a href="#">
                                 <img src="img/project-04.png" alt="our project">
                             </a>
                         </div>
+                        <!--/portfolio project block 4-->
                     </div>
                 </div>
             </div>
+            <!--/portfolio projects section-->
+            <!--review slider section-->
             <div class="container  review-slider" id="blog">
                 <div class="row">
                     <div class="review-slider-inner  col-lg-12  col-lg-offset-0  col-md-10  col-md-offset-1  col-sm-10  col-sm-offset-1  col-xs-10  col-xs-offset-1">
+                        <!--review slide 1-->
                         <div class="review-slide  review-slide-1">
                             <blockquote>Mauris vestibulum est id eros bibendum, consequat efficitur ipsum imperdiet. Aenean turpis velit, accumsan mollis lacinia ac, consequat eu ipsum. Nulla blandit nunc a volutpat facilisis. Nullam pellentesque tellus vel sollicitpharetra. Sed vehicula accumsan mi eget auc </blockquote>
                             <cite><b>Christina Thompson /</b> Envato Pty Ltd</cite>
@@ -407,6 +456,8 @@
                                 <img src="img/review-author-img-01.jpg" alt="review author">
                             </div>
                         </div>
+                        <!--/review slide 1-->
+                        <!--review slide 2-->
                         <div class="review-slide  review-slide-2">
                             <blockquote>Mauris vestibulum est id eros bibendum, consequat efficitur ipsum imperdiet. Aenean turpis velit, accumsan mollis lacinia ac, consequat eu ipsum. Nulla blandit nunc a volutpat facilisis. Nullam pellentesque tellus vel sollicitpharetra. Sed vehicula accumsan mi eget auc </blockquote>
                             <cite><b>Christina Thompson /</b> Envato Pty Ltd</cite>
@@ -414,6 +465,8 @@
                                 <img src="img/review-author-img-01.jpg" alt="review author">
                             </div>
                         </div>
+                        <!--/review slide 2-->
+                        <!--review slide 3-->
                         <div class="review-slide  review-slide-3">
                             <blockquote>Mauris vestibulum est id eros bibendum, consequat efficitur ipsum imperdiet. Aenean turpis velit, accumsan mollis lacinia ac, consequat eu ipsum. Nulla blandit nunc a volutpat facilisis. Nullam pellentesque tellus vel sollicitpharetra. Sed vehicula accumsan mi eget auc </blockquote>
                             <cite><b>Christina Thompson /</b> Envato Pty Ltd</cite>
@@ -421,17 +474,24 @@
                                 <img src="img/review-author-img-01.jpg" alt="review author">
                             </div>
                         </div>
+                        <!--/review slide 3-->
                     </div>
                 </div>
             </div>
+            <!--review slider section-->
+            <!--members section-->
             <div class="container-fluid  members">
+                <!--members section header-->
                 <h2 class="decoration-title">members</h2>
                 <div class="container">
                     <div class="row">
                         <h3 class="subtitle">The best staff</h3>
                     </div>
+                    <!--/members section header-->
+                    <!--members section slider-->
                     <div class="members-slider  row">
                         <div class="members-slider-inner">
+                            <!--members slide 1-->
                             <div class="members-slide members-slide-1  container">
                                 <div class="members-slide-row-right  row">
                                     <div class="members-slide-wrap-text  col-lg-4  col-lg-offset-3  col-md-4  col-md-offset-3">
@@ -470,6 +530,8 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--/members slide 1-->
+                            <!--members slide 2-->
                             <div class="members-slide members-slide-2">
                                 <div class="members-slide-row-right  row">
                                     <div class="members-slide-wrap-text  col-lg-4  col-lg-offset-3  col-md-4  col-md-offset-3">
@@ -508,6 +570,8 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--/members slide 2-->
+                            <!--members slide 3-->
                             <div class="members-slide members-slide-3">
                                 <div class="members-slide-row-right  row">
                                     <div class="members-slide-wrap-text  col-lg-4  col-lg-offset-3  col-md-4  col-md-offset-3">
@@ -546,14 +610,21 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--/members slide 3-->
                         </div>
+                        <!--members slider pager-->
                         <div class="members-slider-controls">
                             <span class="members-slider-page"></span>
                         </div>
+                        <!--/members slider pager-->
                     </div>
+                    <!--/members section slider-->
                 </div>
             </div>
+            <!--/members section-->
+            <!--contacts section-->
             <div class="contacts  container-fluid" id="contact">
+                <!--contacts section video-->
                 <div class="container">
                     <div class="row">
                         <div class="video-wrapper  col-lg-12">
@@ -565,6 +636,8 @@
                         </div>
                     </div>
                 </div>
+                <!--/contacts section video-->
+                <!--contacts section info-->
                 <div class="contacts-content  container">
                     <div class="row">
                         <h4>Get in touch with us</h4>
@@ -573,11 +646,16 @@
                         <p>Cras sit amet mollis odio. Aliquam ac ante eu mauris tincidunt fermentum sit amet sed mauris. Proin tristique lacus sit amet ante hendrerit iaculis.</p>
                     </div>
                 </div>
+                <!--/contacts section info-->
             </div>
+            <!--/contacts section-->
         </main>
+        <!--/main site content-->
+        <!--main site footer-->
         <footer class="main-footer">
             <div class="container">
                 <div class="row">
+                    <!--footer social info column-->
                     <div class="footer-column-social  col-lg-3  col-md-3  col-sm-6  col-xs-12">
                         <div class="footer-site-title-container">
                             <a href="#home">
@@ -594,12 +672,16 @@
                             </ul>
                         </div>
                     </div>
+                    <!--/footer social info column-->
+                    <!--footer contacts info column-->
                     <div class="footer-column-contacts  col-lg-3  col-md-3  col-sm-6  col-xs-12">
                         <a href="tel:+7908765542">+790 876 554 2</a>
                         <a href="tel:+7948356088">+794 835 608 8</a>
                         <a href="mailto:pixelvision@mail.com">pixelvision@mail.com</a>
                         <p>England, London, Bakery St., 34</p>
                     </div>
+                    <!--/footer contacts info column-->
+                    <!--footer subscribe form-->
                     <form action="action.php" class="footer-subscribe-form  col-lg-5  col-lg-offset-1  col-md-5  col-md-offset-1  col-sm-12  col-sm-0">
                         <div class="footer-form-column">
                             <input type="text" id="name" name="name" placeholder="Name">
@@ -610,14 +692,18 @@
                             <button type="submit">Send</button>
                         </div>
                     </form>
+                    <!--/footer subscribe form-->
                 </div>
             </div>
         </footer>
+        <!--/main site footer-->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <!--slick slider-->
         <script type="text/javascript" src="js/slick.min.js"></script>
-        <script src="js/script.js"></script>
+        <!--custom script-->
+        <script src="js/script.min.js"></script>
     </body>
 </html>
