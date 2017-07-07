@@ -1315,24 +1315,13 @@ body {
 .video-overlay.hidden {
   display: none;
 }
+.video-wrapper iframe {
+  position:absolute;width:100%;height:100%;left:0;
+}
 @media (max-width: 768px) {
   .contacts {
     padding-bottom: 40px;
   }
-}
-.video-wrapper button {
-  position: absolute;
-  content: "";
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  background-image: url(../img/spritesheet.png);
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 35px;
-  background-position: -571px -15px;
-  left: 49%;
-  top: 47%;
 }
 .contacts-content {
   text-align: center;
