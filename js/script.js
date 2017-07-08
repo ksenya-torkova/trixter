@@ -1,6 +1,39 @@
 // scrollspy plagin initialization
 $('body').scrollspy({ target: '.navbar-collapse' });
 
+// portfolio toggle active link
+$('.portfolio-links .portfolio-all-links').click(function(evt){
+    evt.preventDefault();
+    $('.portfolio-links .portfolio-all-links').addClass('active');
+    $('.portfolio-links .portfolio-design-links').removeClass('active');
+    $('.portfolio-links .portfolio-photo-links').removeClass('active');
+    $('.portfolio-links .portfolio-branding-links').removeClass('active');
+});
+
+$('.portfolio-links .portfolio-design-links').click(function(evt){
+    evt.preventDefault();
+    $('.portfolio-links .portfolio-design-links').addClass('active');
+    $('.portfolio-links .portfolio-all-links').removeClass('active');
+    $('.portfolio-links .portfolio-photo-links').removeClass('active');
+    $('.portfolio-links .portfolio-branding-links').removeClass('active');
+});
+
+$('.portfolio-links .portfolio-photo-links').click(function(evt){
+    evt.preventDefault();
+    $('.portfolio-links .portfolio-photo-links').addClass('active');
+    $('.portfolio-links .portfolio-design-links').removeClass('active');
+    $('.portfolio-links .portfolio-all-links').removeClass('active');
+    $('.portfolio-links .portfolio-branding-links').removeClass('active');
+});
+
+$('.portfolio-links .portfolio-branding-links').click(function(evt){
+    evt.preventDefault();
+    $('.portfolio-links .portfolio-branding-links').addClass('active');
+    $('.portfolio-links .portfolio-design-links').removeClass('active');
+    $('.portfolio-links .portfolio-photo-links').removeClass('active');
+    $('.portfolio-links .portfolio-all-links').removeClass('active');
+});
+
 // video overlay remove
 $('.video-overlay').click(function(evt){
     evt.preventDefault();

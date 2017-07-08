@@ -593,12 +593,14 @@ body {
   font-weight: 700;
   font-size: 23px;
 }
-.portfolio-links a:hover {
+.portfolio-links a:hover,
+.portfolio-links a:focus {
   color: #b0b0b0;
   text-decoration: none;
 }
-.portfolio-links .active a,
-.portfolio-links .active a:hover {
+.portfolio-links a.active,
+.portfolio-links a.active:hover,
+.portfolio-links a:active {
   color: #fff;
 }
 @media (max-width: 1200px) {
