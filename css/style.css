@@ -1414,12 +1414,12 @@ body {
     text-align: left;
   }
   .members-slide-wrap-text h5 {
-    font-size: 45px;
+    font-size: 32px;
     margin-top: 20px;
     margin-bottom: 15px;
   }
   .members-slide-wrap-text span {
-    font-size: 25px;
+    font-size: 22px;
   }
   .members-slide-wrap-text p {
     font-size: 17px;
@@ -1968,14 +1968,9 @@ body {
 @media (max-width: 768px) {
   .portfolio-slider .slick-next {
     bottom: -100px;
-    display: none !important;
   }
   .portfolio-slider .slick-prev {
     bottom: -100px;
-    display: none !important;
-  }
-  .portfolio-slider-controls {
-    display: none;
   }
 }
 @media (max-width: 580px) {

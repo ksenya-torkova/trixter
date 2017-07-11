@@ -62,7 +62,20 @@ $('.portfolio-links a').bind('click', function(evt) {
 // slick slider for portfolio slider + counting slides
 $(document).ready(function(){
   $('.potfolio-slider-inner').slick({
-      speed: 1500
+      speed: 1500,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+                settings: "unslick",
+                swipe: false,
+                swipeToSlide: false,
+                draggable: false,
+                touchMove: false,
+                accessibility: false
+            }
+        },
+    ]
   });
 });
 
@@ -87,6 +100,19 @@ $(document).ready(function(){
   $('.members-slider-inner').slick({
       vertical: true,
       speed: 1500,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+                settings: "unslick",
+                swipe: false,
+                swipeToSlide: false,
+                draggable: false,
+                touchMove: false,
+                accessibility: false
+            }
+        },
+    ]
   });
 });
 
